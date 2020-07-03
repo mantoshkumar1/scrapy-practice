@@ -54,7 +54,7 @@ class QuotesSpider(scrapy.Spider):
         # cookies. Other ways to achieve is using advanced web-application
         # frameworks such as Selenium/Splash/Chrome Driver.
         # Update Cookies in scrapy.Request.
-        # request.cookies.update({})
+        request.cookies.update({})
 
         return request
 
