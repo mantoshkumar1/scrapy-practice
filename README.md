@@ -54,7 +54,7 @@ Many websites does not allow to render its web pages if our browser does not sup
 information we need to scrape. To do it, We can make our Scrapy request more like our browser's request including cookies in our requests. It is implemented. You only need to fill the cookies in scrapers/spiders/quotes_spider.py (LN 57).
 2. We can use Selenium/Splash/Chrome Driver. It is not implemented. 
 
-#### Possible Enhancements
+###### Possible Enhancements
 Reference: [How to scrape websites without getting blocked](https://www.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/)
 1. Do not follow the same crawling pattern. Implement few random actions that will make a spider look like a human.
 2. Make Anonymous Requests using TorRequests. Through this, it is possible to get a different IP address for each request.
@@ -62,7 +62,7 @@ Reference: [How to scrape websites without getting blocked](https://www.scrapehe
 4. Use a headless browser like Puppeteer, Selenium or Playwright
 5. When following links always take care that the link has proper visibility with no nofollow tag. Some honeypot links to detect spiders will have the CSS style display:none or will be color disguised to blend in with the page’s background color.
 
-References:
+###### References:
 1. [Scrapy Tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html)
 2. http://newcoder.io/scrape/part-0/
 3. [How To Crawl A Web Page with Scrapy and Python 3
